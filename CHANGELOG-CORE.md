@@ -1,6 +1,24 @@
 # Changelog
 ## [unreleased]
 
+## [swc_core@v50.1.2] - 2025-12-08
+
+### Features
+
+
+
+- **(es/transformer)** Merge `async-to-generator` ([#11355](https://github.com/swc-project/swc/issues/11355)) ([c388e87](https://github.com/swc-project/swc/commit/c388e870cae2e9253f1ef39f659aebe7470ea741))
+
+## [swc_core@v50.1.1] - 2025-12-08
+
+### Bug Fixes
+
+
+
+- **(es/parser)** Handle TypeScript expressions in destructuring patterns ([#11353](https://github.com/swc-project/swc/issues/11353)) ([160ec34](https://github.com/swc-project/swc/commit/160ec343404d7363e94a447be5c23bed2ab50e37))
+
+## [swc_core@v50.1.0] - 2025-12-05
+
 ### Bug Fixes
 
 
@@ -2559,12 +2577,6 @@
 
 
 - **(es/minifier)** Remove useless to number ([#10308](https://github.com/swc-project/swc/issues/10308)) ([898f170](https://github.com/swc-project/swc/commit/898f17057af46dbc9a10d9e94c638db764733278))
-
-### Miscellaneous Tasks
-
-
-
-- **(deps)** Update actions ([#10222](https://github.com/swc-project/swc/issues/10222)) ([cf33196](https://github.com/swc-project/swc/commit/cf33196160fdcd004e188c33f8f665a4c81263f2))
 
 ### Refactor
 
